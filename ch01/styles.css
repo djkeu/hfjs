@@ -1,24 +1,24 @@
 body {
-  font: 14px arial;
-  text-align: center;
+    font: 14px arial;
+    text-align: center;
 }
 
 #frame {
-  width: 600px;
+    width: 600px;
 }
 
 #header {
-  font: 16px arial;
-  font-weight: bold;
-  margin-bottom: 15px;
+    font: 16px arial;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
 #left {
-  float: left;
-  width: 110px;
+    float: left;
+    width: 110px;
 }
 
 div.field {
-  margin-bottom: 10px;
-  text-align: right;
+    margin-bottom: 10px;
+    text-align: right;
 }
