@@ -3,7 +3,7 @@
 <html class="with-system-footer" lang="en">
 <head prefix="og: http://ogp.me/ns#">
 <meta charset="utf-8">
-<title>JS examples/chapter01/house/house.png · master · examples / Head First JavaScript · GitLab</title>
+<title>JS examples/chapter01/irock/rock.png · master · examples / Head First JavaScript · GitLab</title>
 <link rel="preload" href="/assets/application_utilities-1696a343e80a91e0041f91ddeb243b7c30108fdaf609941e88b44dca629f07de.css" as="style" type="text/css">
 <link rel="preload" href="/assets/application-4bf4ff2b0d769377b107e2683ec22b5acaf2e63a5bfc4cbe66edd81b6ba0eb4f.css" as="style" type="text/css">
 <link rel="preload" href="/assets/highlight/themes/white-491368bbcea1e958be5fc8e238170d8baa20c5f5b1bedb949652cfa09b4f881a.css" as="style" type="text/css">
@@ -12,8 +12,8 @@
 <script>
 //<![CDATA[
 var gl = window.gl || {};
-gl.startup_calls = {"/examples/9780596527747/-/blob/master/JS%20examples/chapter01/house/house.png?format=json\u0026viewer=rich":{}};
-gl.startup_graphql_calls = [{"query":"query getBlobInfo(\n  $projectPath: ID!\n  $filePath: String!\n  $ref: String!\n  $shouldFetchRawText: Boolean!\n) {\n  project(fullPath: $projectPath) {\n    __typename\n    id\n    repository {\n      __typename\n      empty\n      blobs(paths: [$filePath], ref: $ref) {\n        __typename\n        nodes {\n          __typename\n          id\n          webPath\n          name\n          size\n          rawSize\n          rawTextBlob @include(if: $shouldFetchRawText)\n          fileType\n          language\n          path\n          blamePath\n          editBlobPath\n          gitpodBlobUrl\n          ideEditPath\n          forkAndEditPath\n          ideForkAndEditPath\n          codeNavigationPath\n          projectBlobPathRoot\n          forkAndViewPath\n          environmentFormattedExternalUrl\n          environmentExternalUrlForRouteMap\n          canModifyBlob\n          canCurrentUserPushToBranch\n          archived\n          storedExternally\n          externalStorage\n          externalStorageUrl\n          rawPath\n          replacePath\n          pipelineEditorPath\n          simpleViewer {\n            fileType\n            tooLarge\n            type\n            renderError\n          }\n          richViewer {\n            fileType\n            tooLarge\n            type\n            renderError\n          }\n        }\n      }\n    }\n  }\n}\n","variables":{"projectPath":"examples/9780596527747","ref":"master","filePath":"JS examples/chapter01/house/house.png","shouldFetchRawText":false}}];
+gl.startup_calls = {"/examples/9780596527747/-/blob/master/JS%20examples/chapter01/irock/rock.png?format=json\u0026viewer=rich":{}};
+gl.startup_graphql_calls = [{"query":"query getBlobInfo(\n  $projectPath: ID!\n  $filePath: String!\n  $ref: String!\n  $shouldFetchRawText: Boolean!\n) {\n  project(fullPath: $projectPath) {\n    __typename\n    id\n    repository {\n      __typename\n      empty\n      blobs(paths: [$filePath], ref: $ref) {\n        __typename\n        nodes {\n          __typename\n          id\n          webPath\n          name\n          size\n          rawSize\n          rawTextBlob @include(if: $shouldFetchRawText)\n          fileType\n          language\n          path\n          blamePath\n          editBlobPath\n          gitpodBlobUrl\n          ideEditPath\n          forkAndEditPath\n          ideForkAndEditPath\n          codeNavigationPath\n          projectBlobPathRoot\n          forkAndViewPath\n          environmentFormattedExternalUrl\n          environmentExternalUrlForRouteMap\n          canModifyBlob\n          canCurrentUserPushToBranch\n          archived\n          storedExternally\n          externalStorage\n          externalStorageUrl\n          rawPath\n          replacePath\n          pipelineEditorPath\n          simpleViewer {\n            fileType\n            tooLarge\n            type\n            renderError\n          }\n          richViewer {\n            fileType\n            tooLarge\n            type\n            renderError\n          }\n        }\n      }\n    }\n  }\n}\n","variables":{"projectPath":"examples/9780596527747","ref":"master","filePath":"JS examples/chapter01/irock/rock.png","shouldFetchRawText":false}}];
 
 if (gl.startup_calls && window.fetch) {
   Object.keys(gl.startup_calls).forEach(apiCall => {
@@ -32,7 +32,7 @@ if (gl.startup_calls && window.fetch) {
   });
 }
 if (gl.startup_graphql_calls && window.fetch) {
-  const headers = {"X-CSRF-Token":"1Uftyo8vS98Bz8XSiMhRAtvrrabHhR5k3biwsyTzNZ2UOQ4fX1AFacugDORdWU1PyUsmB78OHoukT9/SGBAZ/Q==","x-gitlab-feature-category":"source_code_management"};
+  const headers = {"X-CSRF-Token":"BD2pk9NZFsdJBmmmtP9sJjfWttrAo6CwNVjAPfzrxcVFQ0pGAyZYcYNpoJBhbnBrJXY9e7gooF9Mr69cwAjppQ==","x-gitlab-feature-category":"source_code_management"};
   const url = `https://resources.oreilly.com/api/graphql`
 
   const opts = {
@@ -110,14 +110,14 @@ window.gon={};gon.features={"highlightJs":true,"fileLineBlame":false};
 
 <meta content="object" property="og:type">
 <meta content="GitLab" property="og:site_name">
-<meta content="JS examples/chapter01/house/house.png · master · examples / Head First JavaScript · GitLab" property="og:title">
+<meta content="JS examples/chapter01/irock/rock.png · master · examples / Head First JavaScript · GitLab" property="og:title">
 <meta content="O&#39;Reilly Resources" property="og:description">
 <meta content="https://resources.oreilly.com/examples/9780596527747/-/avatar" property="og:image">
 <meta content="64" property="og:image:width">
 <meta content="64" property="og:image:height">
-<meta content="https://resources.oreilly.com/examples/9780596527747/-/blob/master/JS%20examples/chapter01/house/house.png" property="og:url">
+<meta content="https://resources.oreilly.com/examples/9780596527747/-/blob/master/JS%20examples/chapter01/irock/rock.png" property="og:url">
 <meta content="summary" property="twitter:card">
-<meta content="JS examples/chapter01/house/house.png · master · examples / Head First JavaScript · GitLab" property="twitter:title">
+<meta content="JS examples/chapter01/irock/rock.png · master · examples / Head First JavaScript · GitLab" property="twitter:title">
 <meta content="O&#39;Reilly Resources" property="twitter:description">
 <meta content="https://resources.oreilly.com/examples/9780596527747/-/avatar" property="twitter:image">
 
@@ -126,7 +126,7 @@ window.gon={};gon.features={"highlightJs":true,"fileLineBlame":false};
 <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
 <meta content="#292961" name="theme-color">
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="lVf30umorU+Ynk0OIAPFtPq3Al1a6jMQYuiIYdTnZ5PUKRQHOdfj+VLxhDj1ktn56BeJ/CJhM/8bH+cA6ARL8w==" />
+<meta name="csrf-token" content="+QBq04J4zbFo7TdYNUCescabmXzHDxC8Yd7RRHut9BG4fokGUgeDB6KC/m7g0YL81DsS3b+EEFMYKb4lR07YcQ==" />
 <meta name="csp-nonce" />
 <meta name="action-cable-url" content="/-/cable" />
 <link rel="apple-touch-icon" type="image/x-icon" href="/assets/apple-touch-icon-b049d4bc0dd9626f31db825d61880737befc7835982586d015bded10b4435460.png" />
@@ -138,7 +138,7 @@ window.gon={};gon.features={"highlightJs":true,"fileLineBlame":false};
 
 </head>
 
-<body class="ui-indigo tab-width-8 gl-browser-firefox gl-platform-windows" data-find-file="/examples/9780596527747/-/find_file/master" data-group="examples" data-namespace-id="3" data-page="projects:blob:show" data-page-type-id="master/JS examples/chapter01/house/house.png" data-project="9780596527747" data-project-id="3318">
+<body class="ui-indigo tab-width-8 gl-browser-firefox gl-platform-windows" data-find-file="/examples/9780596527747/-/find_file/master" data-group="examples" data-namespace-id="3" data-page="projects:blob:show" data-page-type-id="master/JS examples/chapter01/irock/rock.png" data-project="9780596527747" data-project-id="3318">
 
 <script>
 //<![CDATA[
@@ -502,12 +502,12 @@ Repository
 <li><a class="group-path breadcrumb-item-text js-breadcrumb-item-text " href="/examples"><img alt="examples" class="avatar-tile lazy" width="15" height="15" data-src="/uploads/-/system/group/avatar/3/avatar.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />examples</a><svg class="s8 breadcrumbs-list-angle" data-testid="chevron-lg-right-icon"><use href="/assets/icons-7b0fcccb8dc2c0d0883e05f97e4678621a71b996ab2d30bb42fafc906c1ee13f.svg#chevron-lg-right"></use></svg></li> <li><a href="/examples/9780596527747"><img alt="Head First JavaScript" class="avatar-tile lazy" width="15" height="15" data-src="https://resources.oreilly.com/examples/9780596527747/-/avatar" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><span class="breadcrumb-item-text js-breadcrumb-item-text">Head First JavaScript</span></a><svg class="s8 breadcrumbs-list-angle" data-testid="chevron-lg-right-icon"><use href="/assets/icons-7b0fcccb8dc2c0d0883e05f97e4678621a71b996ab2d30bb42fafc906c1ee13f.svg#chevron-lg-right"></use></svg></li>
 
 <li data-qa-selector="breadcrumb_current_link" data-testid="breadcrumb-current-link">
-<a href="/examples/9780596527747/-/blob/master/JS%20examples/chapter01/house/house.png">Repository</a>
+<a href="/examples/9780596527747/-/blob/master/JS%20examples/chapter01/irock/rock.png">Repository</a>
 </li>
 </ul>
 </div>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"examples","item":"https://resources.oreilly.com/examples"},{"@type":"ListItem","position":2,"name":"Head First JavaScript","item":"https://resources.oreilly.com/examples/9780596527747"},{"@type":"ListItem","position":3,"name":"Repository","item":"https://resources.oreilly.com/examples/9780596527747/-/blob/master/JS%20examples/chapter01/house/house.png"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"examples","item":"https://resources.oreilly.com/examples"},{"@type":"ListItem","position":2,"name":"Head First JavaScript","item":"https://resources.oreilly.com/examples/9780596527747"},{"@type":"ListItem","position":3,"name":"Repository","item":"https://resources.oreilly.com/examples/9780596527747/-/blob/master/JS%20examples/chapter01/irock/rock.png"}]}
 
 </script>
 
@@ -553,15 +553,15 @@ Repository
 <a href="/examples/9780596527747/-/tree/master/JS%20examples/chapter01">chapter01</a>
 </li>
 <li class="breadcrumb-item">
-<a href="/examples/9780596527747/-/tree/master/JS%20examples/chapter01/house">house</a>
+<a href="/examples/9780596527747/-/tree/master/JS%20examples/chapter01/irock">irock</a>
 </li>
 <li class="breadcrumb-item">
-<a href="/examples/9780596527747/-/blob/master/JS%20examples/chapter01/house/house.png"><strong>house.png</strong>
+<a href="/examples/9780596527747/-/blob/master/JS%20examples/chapter01/irock/rock.png"><strong>rock.png</strong>
 </a></li>
 </ul>
 </div>
 <div class="tree-controls gl-children-ml-sm-3"><a class="gl-button btn btn-default shortcuts-find-file" rel="nofollow" href="/examples/9780596527747/-/find_file/master">Find file
-</a><a class="gl-button btn btn-default" href="/examples/9780596527747/-/commits/master/JS%20examples/chapter01/house/house.png">History</a><a class="gl-button btn btn-default js-data-file-blob-permalink-url" href="/examples/9780596527747/-/blob/c84dc689203baedbf112d8c446155b734db43d01/JS%20examples/chapter01/house/house.png">Permalink</a></div>
+</a><a class="gl-button btn btn-default" href="/examples/9780596527747/-/commits/master/JS%20examples/chapter01/irock/rock.png">History</a><a class="gl-button btn btn-default js-data-file-blob-permalink-url" href="/examples/9780596527747/-/blob/c84dc689203baedbf112d8c446155b734db43d01/JS%20examples/chapter01/irock/rock.png">Permalink</a></div>
 </div>
 
 <div class="info-well d-none d-sm-block">
@@ -603,7 +603,7 @@ c84dc689
 
 </div>
 <div class="blob-content-holder" id="blob-content-holder">
-<div data-blob-path="JS examples/chapter01/house/house.png" data-original-branch="master" data-project-path="examples/9780596527747" data-target-branch="master" id="js-view-blob-app">
+<div data-blob-path="JS examples/chapter01/irock/rock.png" data-original-branch="master" data-project-path="examples/9780596527747" data-target-branch="master" id="js-view-blob-app">
 <div class="gl-spinner-container" role="status"><span class="gl-spinner gl-spinner-dark gl-spinner-md gl-vertical-align-text-bottom!" aria-label="Loading"></span></div>
 </div>
 </div>
@@ -613,7 +613,7 @@ c84dc689
 <script>
 //<![CDATA[
   window.gl = window.gl || {};
-  window.gl.webIDEPath = '/-/ide/project/examples/9780596527747/edit/master/-/JS%20examples/chapter01/house/house.png'
+  window.gl.webIDEPath = '/-/ide/project/examples/9780596527747/edit/master/-/JS%20examples/chapter01/irock/rock.png'
 
 
 //]]>
