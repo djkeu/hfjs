@@ -9,7 +9,7 @@ JavaScriptcross, p.29
 # Chapter 2 - storing data, p.33
 ## Everything has its place
 
-The next big thing in donuts, p.55
+Meanwhile, back at Duncan's, p.63
 
 
 Note:
