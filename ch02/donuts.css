@@ -13,3 +13,7 @@ body {
 #right {
     float:right;
 }
+
+div.field {
+    margin-bottom: 10px;
+}
