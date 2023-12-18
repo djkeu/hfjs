@@ -9,7 +9,8 @@ JavaScriptcross, p.29
 # Chapter 2 - storing data, p.33
 ## Everything has its place
 
-Meanwhile, back at Duncan's, p.63
+70 Chapter 2
+Duncan discovers donut espionage, p.70
 
 
 Note:
