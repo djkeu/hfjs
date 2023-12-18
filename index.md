@@ -10,7 +10,7 @@ JavaScriptcross, p.29
 ## Everything has its place
 
 70 Chapter 2
-Duncan discovers donut espionage, p.70
+No dumb questions, p.76
 
 
 Note:
