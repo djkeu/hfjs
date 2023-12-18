@@ -6,14 +6,17 @@ body {
     font-style: italic;
 }
 
+#frame {
+    margin-top:15px;
+    width:440px;
+  }
+  
 #left {
     float: left;
-}
-
-#right {
-    float:right;
+    width: 130px;
 }
 
 div.field {
-    margin-bottom: 10px;
+    text-align: right;
+    margin-bottom: 5px;
 }
