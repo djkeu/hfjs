@@ -19,4 +19,4 @@ No dumb questions, p.76
 # Chapter 3 - exploring the client, p.85
 ## Browser spelunking
 
-Clients, servers, and JavaScript, p.86
+Set a timer with setTimeout(), p.94
