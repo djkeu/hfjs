@@ -12,6 +12,11 @@ JavaScriptcross, p.29
 70 Chapter 2
 No dumb questions, p.76
 
+# Chapter 3 - exploring the client, p.85
+## Browser spelunking
+
+Clients, servers, and JavaScript, p.86
+
 
 Note:
 Resources
