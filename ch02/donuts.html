@@ -14,8 +14,13 @@
                 const TAXRATE = 0.0925;
                 const DONUTPRICE = 0.50;
 
-                var numCakeDonuts = parseInt(document.getElementById("cakedonuts").value);
-                var numGlazedDonuts = parseInt(document.getElementById("glazeddonuts").value);
+                var numCakeDonuts = parseDonuts(document.getElementById("cakedonuts").value);
+                var numGlazedDonuts = parseDonuts(document.getElementById("glazeddonuts").value);
+                if (isNaN(numCakeDonuts))
+                    numCakeDonuts = 0;
+                if (isNaN(numGlazedDonuts))
+                    numGlazedDonuts = 0;
+
                 var subTotal = (numCakeDonuts + numGlazedDonuts) * DONUTPRICE;
                 var tax = subTotal * TAXRATE;
                 var total = subTotal + tax;
@@ -28,6 +33,13 @@
             function placeOrder() {
                 // submit order to server
                 form.submit()
+            }
+
+            function parseDonuts(donutString) {
+                numDonuts = parseInt(donutString);
+                if (donutString.indexOf("dozen") != -1)
+                    numDonuts *= 12;
+                return numDonuts;
             }
         </script>
     </head>
