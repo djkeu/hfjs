@@ -1,5 +1,9 @@
 # Head First JavaScript
 
+Note:
+Resources
+https://resources.oreilly.com/examples/9780596527747/-/tree/master
+
 # Chapter 1 - the interactive web, p.1
 ## Reacting to the virtual world
 (..)
@@ -16,8 +20,3 @@ No dumb questions, p.76
 ## Browser spelunking
 
 Clients, servers, and JavaScript, p.86
-
-
-Note:
-Resources
-https://resources.oreilly.com/examples/9780596527747/-/tree/master
