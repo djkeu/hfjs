@@ -19,4 +19,5 @@ No dumb questions, p.76
 # Chapter 3 - exploring the client, p.85
 ## Browser spelunking
 
-Set a timer with setTimeout(), p.94
+Use document object properties to set the client window width, p.101
+    iRock.html
