@@ -19,5 +19,5 @@ No dumb questions, p.76
 # Chapter 3 - exploring the client, p.85
 ## Browser spelunking
 
-Use document object properties to set the client window width, p.101
+Set height and width of the iRock image, p.102
     iRock.html
