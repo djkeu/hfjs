@@ -20,15 +20,15 @@
                     if (userName)
                         alert("It's good to meet you, " + userName + ".");
                 }
-                document.getElementById("rocking").src = "images/rock_happy.png";
-                setTimeout("document.getElementById('rocking').src = 'images/rock.png';", 5 * 1000)
+                document.getElementById("rockImg").src = "images/rock_happy.png";
+                setTimeout("document.getElementById('rockImg').src = 'images/rock.png';", 5 * 1000)
             }
         </script>
     </head>
 
     <body onload="greetUser();">
         <div style="margin-top: 100px; text-align: center;">
-            <img id="rocking" src="images/rock.png" alt="iRock" style="cursor:pointer" onclick="touchRock();" />
+            <img id="rockImg" src="images/rock.png" alt="iRock" style="cursor:pointer" onclick="touchRock();" />
         </div>
     </body>
 </html>
