@@ -11,6 +11,10 @@
                 alert("Hello, I'm your pet rock.")
             }
 
+            function resizeRock() {
+                document.getElementById("rockImg").style.height = (document.body.clientHeight - 100) * 0.9;
+            }
+
             function touchRock() {
                 if (userName) {
                     alert("I like the attention, " + userName + ". Thank you.");
@@ -26,7 +30,7 @@
         </script>
     </head>
 
-    <body onload="greetUser();">
+    <body onload="resizeRock(); greetUser();">
         <div style="margin-top: 100px; text-align: center;">
             <img id="rockImg" src="images/rock.png" alt="iRock" style="cursor:pointer" onclick="touchRock();" />
         </div>
