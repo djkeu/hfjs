@@ -14,7 +14,7 @@ function writeCookie(name, value, days) {
     document.cookie = name + "=" + value + expires + "path=/";
 }
 
-function readCookie() {
+function readCookie(name) {
     // Find the specified cookie and return its value
     var searchName = name + "=";
     var cookies = document.cookie.split(";");
@@ -29,6 +29,7 @@ function readCookie() {
     return null;
 }
 
-function eraseCookie() {
-    // Code, p.118
+function eraseCookie(name) {
+    // Erase the specified cookie
+    writeCookie(name, "", -1);  // no value, expired date (-1)
 }
