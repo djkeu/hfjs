@@ -14,3 +14,10 @@ function writeCookie(name, value, days) {
     document.cookie = name + "=" + value + expires + "path=/";
 }
 
+function readCookie() {
+    // Code, p.118
+}
+
+function eraseCookie() {
+    // Code, p.118
+}
