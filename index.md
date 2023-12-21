@@ -22,8 +22,8 @@ No dumb questions, p.76
 Baking cookies with JavaScript, p.118
     cookie.js
     Done: - writeCookie()
-    ToDo: - readCookie()
-    ToDo: - eraseCookie()
+    Done: - readCookie()
+    Done: - eraseCookie()
 
 Greet the user with a cookie, p.120
     iRock.html
