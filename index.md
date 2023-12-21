@@ -24,3 +24,6 @@ Baking cookies with JavaScript, p.118
     Done: - writeCookie()
     ToDo: - readCookie()
     ToDo: - eraseCookie()
+
+Greet the user with a cookie, p.120
+    iRock.html
