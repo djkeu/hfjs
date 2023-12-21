@@ -19,5 +19,5 @@ No dumb questions, p.76
 # Chapter 3 - exploring the client, p.85
 ## Browser spelunking
 
-Set height and width of the iRock image, p.102
+The onresize event resizes the rock, p.108
     iRock.html
