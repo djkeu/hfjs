@@ -19,5 +19,5 @@ No dumb questions, p.76
 # Chapter 3 - exploring the client, p.85
 ## Browser spelunking
 
-The onresize event resizes the rock, p.108
-    iRock.html
+Baking cookies with JavaScript, p.118
+    cookie.js
